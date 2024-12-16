@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right,  #FF204E, #A0153E, #5D0E41, #00224D);
+    color: #333;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    padding: 20px;
+    /* background-color: #B5C18E; */
+    color: black;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+/* Photo Grid */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 15px; /* Space between grid items */
+    padding: 20px;
+    max-width: 900px;
+    margin: auto; /* Center the grid */
+}
+
+.photo-grid img {
+    width: 100%; /* Make images fill grid cells */
+    height: 300px; /* Fixed height for uniform size */
+    object-fit: cover; /* Crop images to maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Message Section */
+.message {
+    text-align: center;
+    padding: 20px;
+    /* background-color: #EED3B1; */
+    background-color: #BB8493;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
