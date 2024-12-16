@@ -54,3 +54,19 @@ h1 {
     margin: 10px 0;
     font-size: 1.2rem;
 }
+/* For screens up to 600px (typical mobile screen sizes) */
+@media (max-width: 600px) {
+    .photo-grid {
+        display: block; /* Stacks the images in a single column */
+        gap: 10px; /* Adds a small gap between images */
+    }
+
+    .photo-grid img {
+        width: 100%; /* Makes images full width */
+        height: auto; /* Maintains aspect ratio */
+    }
+
+    .message {
+        padding: 20px; /* Increases padding to ensure content readability on mobile */
+    }
+}
