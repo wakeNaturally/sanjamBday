@@ -55,7 +55,7 @@ h1 {
     font-size: 1.2rem;
 }
 /* For screens up to 600px (typical mobile screen sizes) */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .photo-grid {
         display: block; /* Stacks the images in a single column */
         gap: 10px; /* Adds a small gap between images */
@@ -69,4 +69,23 @@ h1 {
     .message {
         padding: 20px; /* Increases padding to ensure content readability on mobile */
     }
+} */
+
+/* For screens up to 600px (typical mobile screen sizes) */
+@media (max-width: 600px) {
+    .photo-grid {
+        display: grid; /* Uses grid layout */
+        grid-template-columns: 1fr; /* Stacks images vertically */
+        gap: 10px; /* Adds a small gap between images */
+    }
+
+    .photo-grid img {
+        width: 100%; /* Makes images full width */
+        height: auto; /* Maintains aspect ratio */
+    }
+
+    .message {
+        padding: 20px; /* Increases padding to ensure content readability on mobile */
+    }
 }
+
