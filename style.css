@@ -7,19 +7,6 @@ body {
     color: #333;
 }
 
-body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(90deg, #FCF596 0%, #FBD288 50%, #FF9C73 100%);
-    background-size: 300% 100%; /* Ensures the gradient covers the full width */
-    background-position: right center; /* Starts the gradient from the right */
-    background-repeat: no-repeat; /* Prevents repeating */
-    min-height: 100vh; /* Ensures the background takes full height */
-}
-
-
-
-
 /* Header */
 h1 {
     text-align: center;
@@ -66,15 +53,4 @@ h1 {
 .message p {
     margin: 10px 0;
     font-size: 1.2rem;
-}
-/* .photo-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
-    gap: 10px; /* Adds space between images */
-    width: 100%; /* Ensures the grid takes full width */
-} */
-
-.photo-grid img {
-    width: 100%; /* Makes images full width */
-    height: auto; /* Maintains the image's aspect ratio */
 }
