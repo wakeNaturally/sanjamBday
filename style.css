@@ -1,11 +1,11 @@
 /* General Styles */
-/* body {
+body {
     font-family: 'Arial, sans-serif';
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom right,  #FF204E, #A0153E, #5D0E41, #00224D);
     color: #333;
-} */
+}
 
 body {
     margin: 0;
@@ -67,12 +67,12 @@ h1 {
     margin: 10px 0;
     font-size: 1.2rem;
 }
-.photo-grid {
+/* .photo-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three equal columns */
     gap: 10px; /* Adds space between images */
     width: 100%; /* Ensures the grid takes full width */
-}
+} */
 
 .photo-grid img {
     width: 100%; /* Makes images full width */
