@@ -1,1 +1,1 @@
-prompt("Happy Birthday Sanajam");
+alert("Happy Birthday Sanajam");
