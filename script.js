@@ -1,1 +1,1 @@
-alert("Happy Birthday Sanajam");
+alert("Happy Birthday Sanjam");
