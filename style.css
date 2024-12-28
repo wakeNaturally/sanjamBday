@@ -57,7 +57,7 @@ h1 {
     }
 
     .photo-grid {
-        grid-template-columns: repeat(3, 1fr); /* Keep 3 columns for all screen sizes */
+        grid-template-columns: repeat(3, 1fr); /* Maintain 3 columns on tablets */
     }
 
     .photo-grid img {
@@ -75,11 +75,11 @@ h1 {
     }
 
     .photo-grid {
-        grid-template-columns: repeat(3, 1fr); /* Keep 3 columns for all screen sizes */
+        grid-template-columns: repeat(3, 1fr); /* Maintain 3 columns on phones */
     }
 
     .photo-grid img {
-        height: auto; /* Let images scale naturally */
+        height: 150px; /* Adjust image height for very small screens */
     }
 
     .message {
