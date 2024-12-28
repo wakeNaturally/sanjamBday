@@ -19,7 +19,7 @@ h1 {
 /* Photo Grid */
 .photo-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-columns: repeat(3, 1fr); /* Always 3 equal columns */
     gap: 15px; /* Space between grid items */
     padding: 20px;
     max-width: 900px;
@@ -50,18 +50,10 @@ h1 {
     font-size: 1.2rem;
 }
 
-/* Responsive Design */
+/* Remove any media queries affecting the grid */
 @media (max-width: 768px) {
     h1 {
         font-size: 2.5rem;
-    }
-
-    .photo-grid {
-        grid-template-columns: repeat(3, 1fr); /* Maintain 3 columns on tablets */
-    }
-
-    .photo-grid img {
-        height: 200px; /* Reduce image height for smaller screens */
     }
 
     .message {
@@ -72,14 +64,6 @@ h1 {
 @media (max-width: 480px) {
     h1 {
         font-size: 2rem;
-    }
-
-    .photo-grid {
-        grid-template-columns: repeat(3, 1fr); /* Maintain 3 columns on phones */
-    }
-
-    .photo-grid img {
-        height: 150px; /* Adjust image height for very small screens */
     }
 
     .message {
