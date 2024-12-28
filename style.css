@@ -57,7 +57,7 @@ h1 {
     }
 
     .photo-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        grid-template-columns: repeat(3, 1fr); /* Keep 3 columns for all screen sizes */
     }
 
     .photo-grid img {
@@ -75,7 +75,7 @@ h1 {
     }
 
     .photo-grid {
-        grid-template-columns: 1fr; /* Single column for phones */
+        grid-template-columns: repeat(3, 1fr); /* Keep 3 columns for all screen sizes */
     }
 
     .photo-grid img {
@@ -90,7 +90,3 @@ h1 {
         font-size: 1rem; /* Smaller font for phones */
     }
 }
-
-
-
-
